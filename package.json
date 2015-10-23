@@ -1,0 +1,20 @@
+{
+  "name": "build-tools-change-project",
+  "main": "./lib/build-tools-change-project",
+  "version": "0.0.0",
+  "description": "Execute command relative to closest project folder",
+  "repository": "https://github.com/deprint/build-tools-change-project",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+    "build-tools.modifier": {
+      "versions": {
+        "1.0.0": "provideModifier"
+      }
+    }
+  }
+}
